@@ -82,6 +82,11 @@ class BookList {
            }
         } 
      } 
+       var bookaling=new BookList()
+	   for(books<-list){
+		   bookaling.addBook(books)
+	   }
+	   println(bookaling.getBooksBetweenYears(2003,2007))
    }
 
    def addAll(books : BookList) : Unit = {
